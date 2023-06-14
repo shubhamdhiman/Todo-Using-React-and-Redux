@@ -7,7 +7,6 @@ function ToDoList() {
   const todos = useSelector((state)=>(state.todos))
   const toggle = (index)=>{
     dispatch(toggleTodo(index))
-
   }
   return (
     <div className="container">
